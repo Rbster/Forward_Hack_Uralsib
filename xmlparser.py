@@ -43,6 +43,6 @@ def findByTown(coords, town):
 
     return coords
 
-print(findCoordByFeach("pay_for_internet_access", "город Уфа"))
+bot.sendMessage(chat_id=update.message.chat_id, text=findCoordByFeach("pay_for_internet_access", "город Уфа")) #Выбираем по услуге и городу
 
 
